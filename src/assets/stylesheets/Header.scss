@@ -1,0 +1,31 @@
+/*--------------------
+    H E A D E R
+ -------------------*/
+.navbar {
+  font-size: 1.25rem;
+
+  & button {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+}
+.navbar-nav {
+  & li {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+.nav-icon {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  &:active,
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+}

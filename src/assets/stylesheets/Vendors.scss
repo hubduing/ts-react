@@ -1,0 +1,17 @@
+.vendors {
+  height: 83px;
+  background: #000;
+
+  & ul {
+
+    & li {
+      padding-top: 18px;
+
+      & a:hover,
+        a:focus,
+        a:active {
+          opacity: .8;
+      }
+    }
+  }
+}
