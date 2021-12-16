@@ -1,25 +1,19 @@
-![logo](https://user-images.githubusercontent.com/6104940/107880275-b04f2b80-6ed5-11eb-9852-de05425070cc.png)
+# React TypeScript Webpack Electro skate
 
-# React TypeScript Webpack Starter
-
-A starter project for using React, TypeScript, SCSS and Webpack.
+Using React, TypeScript, SCSS and Webpack.
 
 ## Features
 - Webpack 5 + HMR
 - TypeScript + React
 - SCSS + Autoprefixing 
 
-## 🚀 Getting Started
+## Getting Started
 
 Get up and running with these simple steps:
 
 1. Clone the project
 2. Run `npm install`
 3. Run `npm run dev`
-
-
-## Class & Functional stubs
-In the `master` branch you can find the class based starter. In the branch `functional` you can find the functional based starter.
 
 
 ## Configuration
@@ -96,16 +90,4 @@ Note: This will compile to a `dist` folder.
 npm run build
 ```
 
-
-
-
-### Build tools
-
-* [React](https://reactjs.org/) - JavaScript library for building user interfaces.
-* [TypeScript](https://www.typescriptlang.org) - TypeScript is a superset of JavaScript that compiles to clean JavaScript.
-* [Webpack 5](https://webpack.js.org/) - App bundler for JavaScript.
-* [SCSS](https://sass-lang.com/) - Preprocessor for SCSS to CSS.
-
-
-### 📝License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Start webpack: https://github.com/fedorovsky/simple-boilerplate
