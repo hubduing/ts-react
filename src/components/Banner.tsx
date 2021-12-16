@@ -1,21 +1,28 @@
-import React from 'react';
-import {Button} from "./Button";
+import React, {Component} from 'react';
 
-const Banner = () => {
-    return (
-        <section className="banner">
-            <img src="./images/banner.jpg" alt="banner"/>
-            <h1>Welcome to Boosted USA</h1>
-            <p>The Holy Grail of Electric Skateboards and One REVolutionary Scooter</p>
-            <div className="banner__box">
-                <Button>
-                    Boosted REVS
-                </Button>
-                <Button>
-                    Boosted Boards
-                </Button>
-            </div>
-        </section>
-    )
+export interface BannerProps
+{
+    title: string;
+    text: string;
+    url: string;
+    subTitle: string;
+    sectionClasses: string;
+    h2Classes: string;
 }
-export default Banner;
+export class Banner extends Component<BannerProps, {}>
+{
+    public render(): JSX.Element
+    {
+        return (
+            <section className={this.props.sectionClasses}>
+                <img src={this.props.url} alt="banner"/>
+                <h2 className={this.props.h2Classes}>{this.props.title}</h2>
+                <p>{this.props.subTitle}</p>
+                <p>{this.props.text}</p>
+                <div className="banner__box">
+                    {this.props.children}
+                </div>
+            </section>
+        );
+    }
+}

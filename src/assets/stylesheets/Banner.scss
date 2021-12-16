@@ -1,6 +1,13 @@
 .banner {
   position: relative;
-  height: calc(100vh - 65px - 83px);
+
+  &-h {
+    height: calc(100vh - 64px - 83px);
+  }
+
+  &-hh {
+    height: 710px;
+  }
 
   & img {
     position: absolute;
@@ -13,7 +20,7 @@
     z-index: -1;
   }
 
-  & h1 {
+  & h2 {
     padding-top: 50px;
     font-size: 44px;
     line-height: 51px;
@@ -34,4 +41,7 @@
       }
     }
   }
+}
+.bold {
+  font-weight: 700;
 }
