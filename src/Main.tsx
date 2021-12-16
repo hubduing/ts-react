@@ -70,6 +70,7 @@ export class Main extends Component<MainProps, {}>
                 <Video/>
                 <Separator/>
 
+
                 {/*<Intro></Intro>*/}
                 {/*<Portfolio></Portfolio>*/}
                 {/*<Blog></Blog>*/}
