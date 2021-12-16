@@ -1,0 +1,27 @@
+.properties {
+  background: var(--color-example);
+  color: var(--white);
+  padding: 35px 10px 51px;
+
+  &__image {
+    width: 87px;
+    height: 87px;
+    margin: 0 auto;
+  }
+
+  &__items {
+
+    & h3 {
+      font-size: 31px;
+      line-height: 36px;
+      font-weight: 700;
+    }
+
+    & p {
+      font-size: 15px;
+      line-height: 22px;
+      max-width: 270px;
+      margin-bottom: 0;
+    }
+  }
+}

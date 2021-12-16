@@ -1,17 +1,20 @@
 @import '~bootstrap';
 @import './reset.css';
 @import './fonts.css';
+@import "./Preloader";
 @import './Header.scss';
 @import "./Banner";
 @import './Button';
 @import './Vendors';
-@import "PreviewShop";
-@import "PreviewCart";
-@import "Specifications";
-@import "Gallery";
-@import "Video";
-@import "Separator";
-@import "Properties";
+@import "./PreviewShop";
+@import "./PreviewCart";
+@import "./Specifications";
+@import "./Gallery";
+@import "./Video";
+@import "./Separator";
+@import "./Properties";
+@import "./Footer";
+@import "./Copy";
 
 :root
 {

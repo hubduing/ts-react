@@ -1,0 +1,30 @@
+.copy {
+  padding: 21px 10px 27px;
+
+  & h5 {
+    font-size: 13px;
+    line-height: 19px;
+
+    & span {
+      color: var(--red);
+    }
+  }
+
+  & ul {
+    display: flex;
+
+    & li {
+      margin-right: 6px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    & a {
+      display: block;
+      width: 30px;
+      height: 22px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.footer {
+  padding: 50px 10px;
+
+  &__content {
+    max-width: 1167px;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    width: 160px;
+    height: 134px;
+    background-image: url('../images/footer-logo.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 240px;
+
+  }
+
+  & li {
+    font-size: 13px;
+    line-height: 21px;
+    max-width: 367px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:active {
+      opacity: .8;
+    }
+
+    & span {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+  }
+}

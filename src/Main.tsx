@@ -1,14 +1,7 @@
 import React, { Component } from "react";
 import { App } from "./App";
-import { Hello } from "./components/Hello";
 import Header from "./components/Header";
 import Preloader from "./components/Preloader";
-import Hero from "./components/Hero";
-import Intro from "./components/Intro";
-import Portfolio from "./components/Portfolio";
-import Blog from "./components/Blog";
-import Back from "./components/Back";
-import Footer from "./components/Footer";
 import {Banner} from "./components/Banner";
 import Vendors from "./components/Vendors";
 import {Button} from "./components/Button";
@@ -17,6 +10,10 @@ import Specifications from "./components/Specifications";
 import Gallery from "./components/Gallery";
 import Video from "./components/Video";
 import Separator from "./components/Separator";
+import Properties from "./components/Properties";
+import Footer from "./components/Footer";
+import Copy from "./components/Copy";
+import Slider from "./components/Slider";
 
 export interface MainProps
 {
@@ -69,14 +66,10 @@ export class Main extends Component<MainProps, {}>
                 <Gallery/>
                 <Video/>
                 <Separator/>
-
-
-                {/*<Intro></Intro>*/}
-                {/*<Portfolio></Portfolio>*/}
-                {/*<Blog></Blog>*/}
-                {/*<Back></Back>*/}
-                {/*<Footer></Footer>*/}
-
+                <Properties/>
+                <Slider/>
+                <Footer/>
+                <Copy/>
             </>
         );
     }
