@@ -1,0 +1,13 @@
+.video {
+  padding: 55px 0 64px;
+
+  &__watch {
+    max-width: 540px;
+    height: 304px;
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

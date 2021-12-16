@@ -13,6 +13,10 @@ import {Banner} from "./components/Banner";
 import Vendors from "./components/Vendors";
 import {Button} from "./components/Button";
 import PreviewShop from "./components/PreviewShop";
+import Specifications from "./components/Specifications";
+import Gallery from "./components/Gallery";
+import Video from "./components/Video";
+import Separator from "./components/Separator";
 
 export interface MainProps
 {
@@ -33,7 +37,7 @@ export class Main extends Component<MainProps, {}>
                 {/*<Preloader></Preloader>*/}
                 <Header></Header>
                 <Banner
-                    sectionClasses="banner banner-h"
+                    sectionClasses="banner banner-h _img"
                     h2Classes=""
                     subTitle=""
                     url="./images/banner.jpg"
@@ -50,7 +54,7 @@ export class Main extends Component<MainProps, {}>
                 <Vendors></Vendors>
                 <PreviewShop></PreviewShop>
                 <Banner
-                    sectionClasses="banner banner-hh"
+                    sectionClasses="banner banner-hh _img"
                     h2Classes="bold"
                     subTitle="High-performance"
                     url="./images/banner-skate.jpg"
@@ -61,6 +65,10 @@ export class Main extends Component<MainProps, {}>
                         Shop Now
                     </Button>
                 </Banner>
+                <Specifications/>
+                <Gallery/>
+                <Video/>
+                <Separator/>
 
                 {/*<Intro></Intro>*/}
                 {/*<Portfolio></Portfolio>*/}
