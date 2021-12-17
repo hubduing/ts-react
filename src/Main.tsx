@@ -67,7 +67,9 @@ export class Main extends Component<MainProps, {}>
                 <Video/>
                 <Separator/>
                 <Properties/>
-                <Slider/>
+                <Slider
+
+                />
                 <Footer/>
                 <Copy/>
             </>
