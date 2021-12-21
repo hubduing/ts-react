@@ -7,7 +7,7 @@ export interface Preview
     description: string;
     urlImage: string;
     divClass: string;
-    previewCartClass: string;
+    previewCartClass: string
 }
 export class PreviewCart extends Component<Preview, {}>
 {

@@ -67,10 +67,10 @@ export class Main extends Component<MainProps, {}>
                 <Video/>
                 <Separator/>
                 <Properties/>
-                <h2 className="title-slider">Looking for Accessories?</h2>
-                <Slider
 
-                />
+                <h2 className="title-slider">Looking for Accessories?</h2>
+                <Slider/>
+
                 <Footer/>
                 <Copy/>
             </>

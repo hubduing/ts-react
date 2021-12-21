@@ -20,17 +20,19 @@ const Properties = () => {
 
     return (
         <section className="properties">
-            <ul className="properties__items d-flex align-items-center justify-content-around">
-                {properties.map((item) => (
-                    <li key={item.id}>
-                        <div className="properties__image _img">
-                            <img src={item.url} alt="properties"/>
-                        </div>
-                        <h3>{item.title}</h3>
-                        <p>{item.text}</p>
-                    </li>
-                ))}
-            </ul>
+            <div className="container">
+                <ul className="row properties__items justify-content-around">
+                    {properties.map((item) => (
+                      <li className="properties__item col-xl-3 col-lg-4 col-md-6 col-sm-12 text-align-center" key={item.id}>
+                          <div className="properties__image _img">
+                              <img src={item.url} alt="properties"/>
+                          </div>
+                          <h3>{item.title}</h3>
+                          <p>{item.text}</p>
+                      </li>
+                    ))}
+                </ul>
+            </div>
         </section>
     )
 };

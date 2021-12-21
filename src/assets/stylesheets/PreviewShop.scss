@@ -2,6 +2,10 @@
   padding-bottom: 20px;
   text-align: center;
 
+  &__box {
+    justify-content: center;
+  }
+
   &__text {
     padding-top: 52px;
     padding-bottom: 72px;

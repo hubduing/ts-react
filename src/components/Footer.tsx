@@ -3,7 +3,7 @@ import React from 'react';
 const Footer: React.FC = () => {
   return (
     <footer className="footer">
-      <div className="footer__content text-left d-flex justify-content-between">
+      <div className="footer__content d-flex text-left justify-content-between">
         <a className="footer__logo d-block" href="#"></a>
         <ul>
           <li><span>Explore</span></li>

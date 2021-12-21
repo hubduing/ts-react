@@ -1,13 +1,13 @@
 .gallery {
 
-  &__image {
-    height: 480px;
-  }
-
   &-size {
-    width: 480px;
     height: 480px;
-
     margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .gallery-size {
+    height: 200px;
   }
 }

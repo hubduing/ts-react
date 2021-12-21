@@ -1,11 +1,11 @@
 .vendors {
-  height: 83px;
   background: #000;
 
   & ul {
+    padding-left: 0;
 
     & li {
-      padding-top: 18px;
+      //padding-top: 18px;
 
       & a:hover,
         a:focus,

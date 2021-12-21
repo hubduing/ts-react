@@ -10,13 +10,6 @@
   }
 
   & img {
-    //position: absolute;
-    //height: 100%;
-    //width: 100%;
-    //top: 0;
-    //right: 0;
-    //bottom: 0;
-    //left: 0;
     z-index: -1;
   }
 
@@ -44,4 +37,47 @@
 }
 .bold {
   font-weight: 700;
+}
+
+// Bootstrap queries
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+
+@media (max-width: 575px) {
+  .banner-h {
+    padding: 50px 10px;
+    height: auto;
+  }
+  .banner-hh {
+    padding: 50px 10px;
+    height: auto;
+  }
+  .banner img {
+    object-fit: none;
+  }
+  .banner h2 {
+    font-size: 30px;
+    line-height: 32px;
+
+    & p,
+    & h2 {
+      max-width: 100%;
+    }
+  }
+
+}
+
+@media (max-width: 494px) {
+  .banner__box button {
+    margin-right: 0;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+
+@media (min-width: 576px) {
+  .banner img {
+    object-fit: cover;
+  }
 }

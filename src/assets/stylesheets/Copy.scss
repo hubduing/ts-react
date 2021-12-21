@@ -6,7 +6,7 @@
     line-height: 19px;
 
     & span {
-      color: var(--red);
+      color: red;
     }
   }
 
@@ -26,5 +26,23 @@
       width: 30px;
       height: 22px;
     }
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .copy__box {
+    flex-direction: column;
+  }
+}
+@media (max-width: 350px) {
+  .copy__box ul {
+    flex-wrap: wrap;
   }
 }

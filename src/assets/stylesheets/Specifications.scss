@@ -7,7 +7,6 @@
   }
 
   &__image {
-    width: 380px;
     height: 380px;
     margin-right: 20px;
 
@@ -30,6 +29,33 @@
       line-height: 22px;
       margin-bottom: 18px;
       max-width: 339px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .specifications__block {
+    
+    & h2 {
+      text-align: center;
+    }
+
+    & p {
+      max-width: 100%;
+    }
+
+    & button {
+
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .specifications__image {
+    height: 200px;
+
+    & img {
+      object-fit: cover;
     }
   }
 }

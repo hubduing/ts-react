@@ -4,13 +4,15 @@ import {VideoFrame} from './VideoFrame';
 const Video = () => {
     return (
         <section className="video">
-            <div className="content d-flex align-items-center video__box">
-                <VideoFrame
+            <div className="container">
+                <div className="row video__box justify-content-center">
+                  <VideoFrame
                     url='https://www.youtube.com/embed/AuCoYZvlO7U'
-                ></VideoFrame>
-                <VideoFrame
+                  ></VideoFrame>
+                  <VideoFrame
                     url='https://www.youtube.com/embed/2erHR49jktg'
-                ></VideoFrame>
+                  ></VideoFrame>
+                </div>
             </div>
         </section>
     )
